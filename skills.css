@@ -1,0 +1,166 @@
+*{
+    border: 0px;
+    color: aliceblue;
+    margin: 0px;
+    font-family: url(/fonts/Poppins/Poppins-Black.ttf);
+}
+body{
+    background-color: rgb(13, 11, 11);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav{
+   margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+a{
+  text-decoration: none;
+  font-size: 50px;
+
+}
+h3{
+  font-size: 110px;
+  color: gold;
+  padding-right: 200px;
+  padding-left: 80px;
+}
+ul{
+    padding: 20px;
+    list-style: none;
+    padding-right: 100px;
+}
+ul li {
+    padding: 20px 0px 0px 40px;
+    display:inline;
+    position: relative;
+ }
+ a:hover{
+    color: gold;
+ }
+ .rest{
+    padding: 50px 0px 0px 80px ;
+ }
+ h4{
+    font-size:180px;
+ }
+ h6{
+    font-size: 80px;
+ }
+ h1{
+  text-align: center;
+  font-size:180px;
+  padding-bottom: 150px;
+ }
+ .box{
+  background-color: transparent;
+  height: 500px;
+  width: 600px;
+  /* border: 4px solid black; */
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 100px;
+ }
+ .box2{
+  background-color: transparent;
+  height: 500px;
+  width: 600px;
+  /* border: 4px solid black; */
+  margin-left: 100px;
+  margin-right: 100px;
+  margin-bottom: 80px;
+ }
+ .box:hover{
+  filter: drop-shadow(5px 5px 15px yellow);
+ }
+ .box2:hover{
+  filter: drop-shadow(5px 5px 15px yellow);
+ }
+ hr{
+   height: 5px;
+   width: 5015px;
+   background-color: aliceblue;
+ }
+.fa-react{
+  font-size: 340px;
+  padding-left: 155px;
+}
+.fa-node-js{
+  font-size: 340px;
+  padding-left: 155px;
+}
+ .fab{
+  font-size: 340px;
+  padding-left: 155px;
+ }
+ h2{
+  text-align: center;
+  font-size: 300px;
+  font-family: monospace;
+ }
+ .fa-github{
+  margin-top: 30px;
+   font-size: 140px;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+ .fa-linkedin{
+  margin-top: 30px;
+   font-size: 140px;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+ .fa-instagram{
+  margin-top: 30px;
+   font-size: 140px;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+ .fa-whatsapp{
+  margin-top: 30px;
+  font-size: 140px;
+  margin-left: 40px;
+  margin-right: 40px;
+ }
+ .fa-solid{
+   margin-top: 80px;
+   font-size: 40px;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+ .fa-regular{
+   margin-top: 80px;
+   font-size: 40px;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+ p{
+  font-size: 100px;
+  text-align: center;
+  font-family: u;
+ }
+ .float{
+   float: left;
+ }
+ .flex{
+   display: flex;
+ }
+ .padding{
+  padding-left: 800px;
+  padding-bottom: 50px;
+ }
+ .footer1{
+   height: max-content;
+   width: 1000px;
+   align-items: baseline;
+ }
+ .footer2{
+   display: grid;
+   padding: 0px 0px 0px 3000px;
+ }
+ .footer2 p{
+   margin-top: 60px;
+   font-size: 50px;
+ }

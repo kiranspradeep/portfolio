@@ -1,0 +1,126 @@
+*{
+    border: 0px;
+    color: aliceblue;
+    margin: 0px;
+    font-family: url(/fonts/Poppins/Poppins-Black.ttf);
+}
+body{
+    background-color: rgb(13, 11, 11);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav{
+   margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+a{
+  text-decoration: none;
+  font-size: 50px;
+
+}
+h3{
+  font-size: 110px;
+  color: gold;
+  padding-right: 200px;
+  padding-left: 80px;
+}
+ul{
+    padding: 20px;
+    list-style: none;
+    padding-right: 100px;
+}
+ul li {
+    padding: 20px 0px 0px 40px;
+    display:inline;
+    position: relative;
+ }
+ a:hover{
+    color: gold;
+ }
+ .rest{
+    padding: 565px 0px 0px 80px ;
+ }
+ h1{
+  font-size:  190px;
+ }
+ h6{
+  text-decoration: none;
+  font-size: 85px;
+ }
+ p{
+  font-size: 55px;
+ }
+ p:hover{
+  filter: drop-shadow(5px 5px 15px yellow);
+}
+h1:hover{
+  filter: drop-shadow(5px 5px 15px yellow);
+}
+h6:hover{
+  filter: drop-shadow(5px 5px 15px yellow);
+}
+ .box1{
+  width: 70%;
+ }
+ button{
+  margin-top: 70px;
+  font-size: 60px;
+  color: black;
+  background-color: gold;
+ }
+ button:hover{
+  border-radius: 30px;
+ }
+ .box{
+  margin-left: 500px;
+  width: 800px;
+  height: 800px;
+  border-radius: 50%;
+  background-image: url(/image/about.jpeg);
+  background-size: contain;
+ }
+ hr{
+   height: 5px;
+   width: 5015px;
+   background-color: aliceblue;
+ }
+ .fa-brands {
+   margin-top: 30px;
+   font-size: 140px;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+ .fa-solid{
+   margin-top: 80px;
+   font-size: 40px;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+ .fa-regular{
+   margin-top: 80px;
+   font-size: 40px;
+   margin-left: 40px;
+   margin-right: 40px;
+ }
+ .float{
+   float: left;
+ }
+ .flex{
+   display: flex;
+ }
+ .footer1{
+   height: max-content;
+   width: 1000px;
+   align-items: baseline;
+ }
+ .footer2{
+   display: grid;
+   padding: 0px 0px 0px 3000px;
+ }
+ .footer2 p{
+   margin-top: 60px;
+   font-size: 50px;
+ }

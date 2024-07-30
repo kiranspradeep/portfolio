@@ -1,0 +1,99 @@
+*{
+    border: 0px;
+    color: aliceblue;
+    margin: 0px;
+    font-family: url(/fonts/Poppins/Poppins-Black.ttf);
+}
+body{
+    background-color: rgb(13, 11, 11);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+nav{
+   margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content:space-between;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 50px;
+
+}
+h3{
+    font-size: 110px;
+    color: gold;
+    padding-right: 200px;
+    padding-left: 80px;
+}
+ul{
+    padding: 20px;
+    list-style: none;
+    padding-right: 100px;
+}
+ul li {
+    padding: 20px 0px 0px 40px;
+    display:inline;
+    position: relative;
+ }
+ a:hover{
+    color: gold;
+ }
+ .box1{padding-top: 400px;
+    height: 1100px;
+    width: 2000px;
+    margin-right: 600px;
+ }
+ .box1 :hover{
+   filter: drop-shadow(5px 5px 15px yellow);
+ }
+ .rest{
+    padding: 400px 0px 0px 80px ;
+    display: flex;
+ }
+ h4{
+    font-size:300px;
+ }
+ h6{
+    font-size: 200px;
+ }
+ .container p{
+  font-size: 80px;
+ }
+ .container p{
+   color: white;
+   font-size: 100px;
+   animation-name: first;
+   animation-duration: 3s;
+   animation-delay: .5s;
+   animation-iteration-count: infinite;
+ }
+ @keyframes first {
+  0%{
+    left: 0px;
+    top: 0px;
+    background-color:gold;
+  }
+}
+ .sen p{
+   font-size: 60px;
+ }
+ .float{
+   float: left;
+ }
+ .flex{
+   display: flex;
+ }
+ .block{
+   display: inline;
+ }
+ .footer1{
+   height: max-content;
+   width: 1000px;
+   align-items: baseline;
+ }
+p{
+   margin-top: 60px;
+   font-size: 100px;
+ }
